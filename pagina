@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Navbar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="custom.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bg-primary">
+            <div class="container">
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <h1 class="text-center"><img class="align-top"
+                                src="chaotic united.png"
+                                width="550em" height=""><span class="text-white">
+                        </h1>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <h4 class="text-center text-white">Welcome to Chaotic United</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <a class="logo"><img src="chaotic united.png" alt="logo" style="height: 54px;"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Servers</a></li>
+                    <li><a href="#">HelpCenter</a></li>
+                    <li><a href="#">Donated</a></li>
+                </ul>
+            </nav>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="col-md-6 offset-md-3 overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Forum</a>
+                <a href="#">Servers</a>
+                <a href="#">Helpcenter</a>
+                <a href="#">Donated</a>
+            </div>
+        </div>
+
+        <div class="cont">
+            <br>
+            <div class="row">
+                <div class="col-12 text-center text-white align-bottom "
+                    style="background-color: red; padding-top: .5em; padding-bottom: .5em;">
+                    Dont Miss the release of PokeMasters Saturday the 10th at April GMT+0!
+                </div>
+            </div>
+        </div>
+            <br>
+                    <div style="padding-top: 0.5em;" class="row">
+                        <div class="col-md-4 offset-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <h3 class="card-title"> 
+                              <img class="align-top" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAclBMVEX///8AAADLy8tFRUXS0tLX19dQUFD8/PwEBAT5+fnIyMiamppqamrFxcWZmZlnZ2eOjo5vb291dXXl5eUPDw8/Pz8VFRVHR0csLCzd3d3g4OB5eXno6Oi/v7+goKAuLi6np6d/f38jIyNbW1u1tbU6OjqzKqCrAAAGnklEQVR4nO2dbXuiOhCGM740xBar1ta+WLrtHv//XzwEQZM8qGAT15i598tebhf07mQyDJGIP5MBY1GIgWBsBuwE0E7kv34TVwbHCcJOEHaCsBOEnSDsBGEnCDtB2AnCThB2grAThJ0g7ARhJwg7QdgJwk4QdoKwE4SdIOwEYScIO0HYCcJOkDBOwt9tDXmGIE70G5YX8CLDnCRQnOg3K9dv43C8rVWoaAmVT9Tge7ikkLw8f09icaIjROQr/bY3w+FqGIbVJitPsMpDxEoYJ4vy1zgbqZApRarR7IVoEeAkIcaOGhJNlffDWlQm1KwMFf8nCuBEreh1HH4+lnpqG7/SxvuJvDuRYkGv736PeYT3V1r49u8/Tj6JLhAlNWWkEOXX7kQOaer3iMdPJ+5p6Ll08+4kpx91yZWUSv2UgeIV704+aOb3gMcpQ2RGH36P6duJ2tCb1wOeZkwbv/OxbyfvSwpcmThIoSh78npIv070NDC89LJsudITnUd8x8mI7rwerwt3NPJ6PHaCsBOEnSDsBGEnCDtB2AnCThB2grATJD4n+r6AksK4B5i8EymeZnfPfwvj6jt1J1IMfqrbgM9rjpOGvDKSmTd2knZSppBJ5aPis3k5bSdiYNxE/25eTtqJGSVEj82rSTsZaCW1lGx/fyBZJ3Yu0X/biUjXiZhkphN9m7gmWSciX1KWGdlkX7Ql6qSMkuUul2g1j1KkXbOVnz43Rk2p5tFcnpSok0kVHjslD9aaxySdVJOwEShllMikx44zCetc4izmSM+J2A4cM0qcf0/OyTaX0D6XPEp3ZVhyTqqBY0bJdt26+RNpOSk/vi7V7FwCJOZEl2qGE7suaUjKidx21cy6pG3BT0JOJOSSB1W/bpOOE6W2/ZJ9Lnk4sFIuISdWo7HOJa1r5ZJx4tQleuAcWi4doROosTpQ5xJLycEDxeOkevvr9/U5SspcksM1zkGicaLH/vix/EB3n/2/Qyrta5wyvR4zG40T0dyyI7rvLyUnq9F4OJdoInKy/qGdlGohQLcj6OuZSeZOwsf+c0RO/uwn0j6RItUuwOqBMz/xPchonEgxJ0tK10y7vQFqNBrnp75cHY0TIR6M6Kdp90gZuAU9NAccInJSmM0xKkSHpwvoBUgnGo0tRONEiierDC2HT4dCRcFlX4fwisaJsJKsltMhp0i7ej1RlzRE40SPlHsrUHSknPp8uRMl4lQu0UTjpGJqSymOPrFEF/ROXdItLUflpIoU00ohjvzWlb1y4HRd0hCXE6kjpXNOca6EuyqJy4n++PdkcSinSGdhVqOki5a4nJRIJ9EWrcWbUm5d0t6ObiU+JxgpbU62Bf1+lD3IzhcD8TkpI8DJKa1l/sRuDsyPNgcconOif9umlCanSOsnrIGjq9c+Hcv4nLQMn8JSoqTVaKwHTg9idCKkGymFGSjbfknXRmMLUTopc4oZKW5Oyd1covpJidKJZjsl7z75tG4dSOl26E80GluI1YkUBSRaAUp6FPQGsToRLRWtrHuvWZ9GYwvROlFWos2q4SPqKDFvWvTMJZponWjudz7qnGLnEuraHHCI2QnklOl/ZF0Mzc97qFjMTgS0Dpz0es6tZRG3E2hHZnruzYwoOU9KzE40srBzSmOnd0FvEL0TN6fsJ+Gzn9cVvRO4IKwHTp/mgEPsTlrakXogdW80thC9E41dp/RrNLZwC06c4VPmku6rDtq4BSdOO/L8SbjmFpw0OaWuTea/ChJxI052dwizX9UlDTfiRIimTln8athU3IqTMjhGH6vhw2enlQPHuRUnFZ6erX1TTjzBThB2grAThJ0g7ARhJwg7QdgJwk4QdoJcu5N/sF+GGF65k6fl8rL7qgihaHnN+6pU++/43eTkNFe+/0558f+hlyB5POTJU17/Pk0ip5dLDh4p1AtN/B7TsxNZ7/t2wUiZ0crz2bw7qfcHvBhj/cDhK98LT4gFfb2f9eCGPsj6z9MXLXzvHx1gX1q1oi9dMITd6Xr7lbHxKz0feizK2YTclzZ4UlFToqH/EwWIE1nvXzwOOv/s9i/u8r3lfgTa+zv4PtfDjT7BSj/P3Xs4BtojvtoP/aVt8Y03tvuhh0haoZzoeWf9dmzj+98xemsewONfSqCxE3oq3p0lxGkCOYkadoKwE4SdIOwEYScIO0HYCcJOEHaCsBOEnSDsBGEnCDtB2AnCThB2grAThJ0g7ARhJwg7QdgJwk4QdoKwE4SdIOwEYSfIQBSjAWMyKv4H9qdCUnlaNWQAAAAASUVORK5CYII=" width="35em" height="27em">
+                              Minecraft Registration</h3>
+                              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus rem necessitatibus voluptates soluta hic cumque nisi atque, accusamus ex labore deserunt consequuntur praesentium sapiente magni vel tenetur quo inventore fugiat!</p>
+                              <button type="button" class="btn btn-outline-primary" onclick="mover_r()">Registration Game</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 offset-md-3">
+                          <div class="card1">
+                            <div class="card-body">
+                              <h3 class="card-title"> <img class="align-top" src="https://img.icons8.com/material-outlined/48/000000/clock--v1.png" width="25em" height="25em">  
+                                Chaotic Launcher</h3>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eum iusto aperiam cupiditate! Illo nemo inventore reiciendis beatae harum sapiente, laboriosam amet dolores corporis temporibus culpa ea fugit esse perspiciatis.</p>
+                              <button type="button" class="btn btn-outline-secondary" onclick="mover_d()">Download</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 offset-md-3">
+                            <div class="card2">
+                              <div class="card-body">
+                                <h3 class="card-title"> <img class="align-top" src="https://img.icons8.com/ios/500/cloud.png" width="25em" height="25em"> 
+                                    Servers</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam inventore odit muk quod magni molestiae ea. Natus ab ipsa id laborum, molestias dolor suscipit nisi nobis eligendi vel esse culpa.</p>
+                                <button type="button" class="btn btn-outline-secondary" onclick="mover_s()">Servers</button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <script>
+                        function mover_r(){
+                          location.href="https://www.minecraft.net/es-es";
+                        }
+                        function mover_d(){
+                          location.href="https://tlauncher.org/en/";
+                        }
+                        function mover_s(){
+                          location.href="https://minecraftservers.org/";
+                        }
+                        
+                    </script>
+
+<!--https://wallpapersafari.com/w/Qv1c6x-->
+<!---->
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
